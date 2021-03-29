@@ -3,8 +3,8 @@ package task1;
 import java.math.BigDecimal;
 
 public interface Calculable {
-    BigDecimal calcMonthlyPay(int fullPrice, int creditTermMonth, double perCentMonth);
-    BigDecimal calcFullPrice(int fullPrice, int creditTermMonth, double perCentMonth);
-    BigDecimal calcOverPay(int fullPrice, int creditTermMonth, double perCentMonth);
+    BigDecimal calcMonthlyPay(int sumCredit, int creditTermMonth, int perCent);
+    BigDecimal calcsumCredit(int sumCredit, int creditTermMonth, int perCent);
+    BigDecimal calcOverPay(int sumCredit, int creditTermMonth, int perCent);
 
 }
